@@ -1,6 +1,6 @@
-#include <fmt/core.h>
+#include "pointers.hpp"
 
 int main() {
-    fmt::println("Hello, world!");
+    pointerDemo();
     return 0;
 }
