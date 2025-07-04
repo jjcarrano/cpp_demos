@@ -6,6 +6,8 @@ void increment_by_two(int& x) {
 }
 
 void reference_demo() {
+    fmt::println("\n===== BASIC REFERENCES DEMO =====");
+
     int a = 10;
 
     fmt::println("Value of a: {}", a);

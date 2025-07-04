@@ -4,6 +4,8 @@
 
 void basic_class_demo() {
 
+    fmt::println("\n===== BASIC CLASS DEMO =====");
+
     double initialBalance = 0;
     double annualInterestRate = .041;
     BankAccount myBankAccount(initialBalance, annualInterestRate);

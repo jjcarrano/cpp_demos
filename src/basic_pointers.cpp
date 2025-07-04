@@ -2,6 +2,8 @@
 #include <fmt/core.h>
 
 void pointer_demo() {
+    fmt::println("\n===== BASIC POINTER DEMO =====");
+
     int x = 42;
     int* p = &x; // Pointer to x
     fmt::println("Value of x: {}", x);
