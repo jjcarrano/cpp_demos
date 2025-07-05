@@ -1,3 +1,5 @@
 #pragma once
 
-void basic_container_demo();
+namespace basic_containers {
+    void demo();
+}

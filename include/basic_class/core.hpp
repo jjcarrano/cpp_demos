@@ -1,5 +1,5 @@
 #pragma once
 
-namespace basic_pointers {
+namespace basic_class{
     void demo();
 }

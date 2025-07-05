@@ -10,7 +10,7 @@ set(TARGET_NAME my_cpp_app)
 find_package(fmt CONFIG REQUIRED)
 
 # Automatically gather all .cpp files in src/
-file(GLOB SRC_FILES CONFIGURE_DEPENDS src/*.cpp)
+file(GLOB_RECURSE SRC_FILES CONFIGURE_DEPENDS src/*.cpp)
 
 add_executable(${TARGET_NAME} ${SRC_FILES})
 

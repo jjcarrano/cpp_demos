@@ -1,7 +1,8 @@
 #include "basic_pointers.hpp"
 #include <fmt/core.h>
 
-void pointer_demo() {
+namespace basic_pointers {
+    void demo() {
     fmt::println("\n===== BASIC POINTER DEMO =====");
 
     int x = 42;
@@ -13,4 +14,5 @@ void pointer_demo() {
 
     *p = 100; // Change the value of x through the pointer
     fmt::println("New value of x: {}", x);
+    }
 }

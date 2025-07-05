@@ -1,1 +1,5 @@
-void abc_demo();
+#pragma once
+
+namespace abstract_base_classes {
+    void demo();
+}
