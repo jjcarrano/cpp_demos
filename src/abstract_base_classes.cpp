@@ -7,7 +7,7 @@ namespace {
     class Bakable {
     public:
         virtual void bake() const = 0;
-        virtual ~Bakable() {}
+        virtual ~Bakable() = default;
     };
 
     class Cookies : public Bakable {
