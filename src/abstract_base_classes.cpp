@@ -26,7 +26,7 @@ namespace {
 
     class Bakery {
     public:
-        Bakery(const std::vector<std::shared_ptr<Bakable>>& items) : itemsToBake(items) {}
+        explicit Bakery(const std::vector<std::shared_ptr<Bakable>>& items) : itemsToBake(items) {}
 
         void start_baking() const {
             for (const auto& item : itemsToBake) {
